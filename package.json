@@ -1,0 +1,22 @@
+{
+  "name": "simulation2018",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattiaCarolo/Simulation2018.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattiaCarolo/Simulation2018/issues"
+  },
+  "homepage": "https://github.com/MattiaCarolo/Simulation2018#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
