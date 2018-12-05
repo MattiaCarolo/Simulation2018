@@ -9,8 +9,8 @@ app.use(bodyParser.json());
 app.set('port', (process.env.PORT || 5000));
 
 // a useless function that returns a fixed object. you can use it, if you want, for testing purposes
-app.get('/count',function (req, res) {
-    res.json({count: 3})
+app.get('/',function (req, res) {
+    res.json({Hello: 'World'})
 })
 
 app.get('/square',(req,res) => {
