@@ -15,16 +15,16 @@ app.get('/count',function (req, res) {
 
 app.get('/square',(req,res) => {
     res.setHeader('content-type', 'application/json');
+    var response = {results: null};
     if(req.query.string!=null){
         var string = req.query.string;
         let ris = square(string);
-        res.status(200);
-        res.send(ris.toString());
+        response.results = ris;
+        res.json(response)
     }
     else{
-        res.status(200);
-        ris = -1;
-        res.send(ris.toString());
+        response.results = -1;
+        res.json(response)
     }
 });
 
